@@ -1,0 +1,36 @@
+# AI Business Decision Copilot — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Web framework & API ──────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9        # for file uploads
+
+# ── Dashboard ────────────────────────────────────
+streamlit==1.35.0
+
+# ── Data processing ──────────────────────────────
+pandas==2.2.2
+numpy==1.26.4
+openpyxl==3.1.2                # Excel read/write
+
+# ── Machine learning ─────────────────────────────
+scikit-learn==1.5.0
+prophet==1.1.5                 # time-series forecasting
+
+# ── Visualisation ────────────────────────────────
+plotly==5.22.0
+matplotlib==3.9.0
+
+# ── AI ───────────────────────────────────────────
+anthropic>=0.28.0              # Claude API
+
+# ── Database (optional) ──────────────────────────
+sqlalchemy==2.0.30
+psycopg2-binary==2.9.9         # PostgreSQL adapter
+alembic==1.13.1                # migrations
+
+# ── Utilities ────────────────────────────────────
+python-dotenv==1.0.1
+pydantic==2.7.1
+requests==2.32.2
